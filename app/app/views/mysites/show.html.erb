@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @mysite.name %>
+</p>
+
+<p>
+  <strong>Website:</strong>
+  <%= @mysite.website %>
+</p>
+
+<%= link_to 'Edit', edit_mysite_path(@mysite) %> |
+<%= link_to 'Back', mysites_path %>
